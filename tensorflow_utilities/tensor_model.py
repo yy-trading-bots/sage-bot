@@ -22,19 +22,8 @@ class TensorModel:
         self.X_train, self.X_test, self.y_train, self.y_test = train_test_split(self.X, self.y, test_size=0.1, random_state=42)
 
         self.model = Sequential([
-            Dense(256, input_dim=self.X.shape[1]),
-            LeakyReLU(alpha=0.01),
-            BatchNormalization(),
-            Dense(128),
-            LeakyReLU(alpha=0.01),
-            BatchNormalization(),
-            Dense(64),
-            LeakyReLU(alpha=0.01),
-            BatchNormalization(),
-            Dense(32),
-            LeakyReLU(alpha=0.01),
-            BatchNormalization(),
-            Dense(1, activation='sigmoid')  # Çıkış katmanında sigmoid aktivasyonu ve tek bir nöron
+            # add your layers here
+            Dense(1, activation='sigmoid')
         ])
 
         optimizer = Adam(learning_rate=0.01)
