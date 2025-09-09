@@ -1,6 +1,13 @@
 tensorflow
+silence-tensorflow
 scikit-learn
 numpy
 pandas
 python-binance
 TA-Lib
+termcolor
+colorama
+tomli
+pytest
+pytest-cov
+coverage
