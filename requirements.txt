@@ -1,5 +1,4 @@
 tensorflow
-silence-tensorflow
 scikit-learn
 numpy
 pandas
