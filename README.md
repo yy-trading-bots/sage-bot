@@ -3,7 +3,7 @@
 </div>
 
 [![Python 3.13](https://img.shields.io/badge/python-3.13-blue.svg)](https://www.python.org/downloads/)
-[![Coverage 96.75%](https://img.shields.io/badge/coverage-96.75%25-brightgreen.svg)](#)
+[![Coverage 96.88%](https://img.shields.io/badge/coverage-96.88%25-brightgreen.svg)](#)
 [![CI](https://github.com/yy-trading-bots/sage-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/yy-trading-bots/sage-bot/actions/workflows/ci.yml)
 [![license](https://img.shields.io/github/license/yy-trading-bots/sage-bot)](https://github.com/yy-trading-bots/sage-bot/blob/master/LICENSE)
 
